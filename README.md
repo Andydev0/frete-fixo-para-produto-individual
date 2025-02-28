@@ -12,8 +12,6 @@ O plugin "Frete Fixo para Produto Individual" permite que lojistas configurem va
 - Definir frete fixo para variações de produtos
 - Opção de frete grátis para produtos específicos
 - Opção de cobrar frete por unidade ou valor único independente da quantidade
-- Exibição do valor do frete na página do produto
-- Exibição do valor do frete na listagem de produtos
 - Exibição do valor do frete no carrinho de compras
 - Filtro de produtos por tipo de frete no painel administrativo
 - Página de configurações para personalizar o plugin
