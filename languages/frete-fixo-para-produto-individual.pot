@@ -1,0 +1,167 @@
+# Copyright (C) 2024 Anderson Silva
+# This file is distributed under the same license as the Frete fixo para produto individual plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Frete fixo para produto individual 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/frete-fixo-para-produto-individual\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-02-28T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: frete-fixo-para-produto-individual\n"
+
+#. Plugin Name of the plugin
+msgid "Frete fixo para produto individual"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://exemplo.com/frete-fixo-para-produto-individual"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin para adicionar frete fixo por produto e suas variações no WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+msgid "Anderson Silva"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://exemplo.com"
+msgstr ""
+
+#: frete-fixo-para-produto-individual.php:47
+msgid "Frete fixo para produto individual requer o plugin WooCommerce ativo para funcionar!"
+msgstr ""
+
+#: includes/class-ffpi-product-shipping.php:58
+msgid "Habilitar frete fixo"
+msgstr ""
+
+#: includes/class-ffpi-product-shipping.php:59
+msgid "Marque esta opção para habilitar o frete fixo para este produto."
+msgstr ""
+
+#: includes/class-ffpi-product-shipping.php:65
+msgid "Frete por unidade"
+msgstr ""
+
+#: includes/class-ffpi-product-shipping.php:66
+msgid "Marque esta opção para cobrar o frete fixo por unidade do produto. Se desmarcado, o frete será um valor único independente da quantidade."
+msgstr ""
+
+#: includes/class-ffpi-product-shipping.php:77
+msgid "Frete grátis"
+msgstr ""
+
+#: includes/class-ffpi-product-shipping.php:78
+msgid "Marque esta opção para oferecer frete grátis para este produto."
+msgstr ""
+
+#: includes/class-ffpi-product-shipping.php:159
+msgid "Frete Grátis"
+msgstr ""
+
+#: includes/class-ffpi-product-shipping.php:178
+msgid "Frete Fixo"
+msgstr ""
+
+#: includes/class-ffpi-product-shipping.php:217
+msgid "Grátis"
+msgstr ""
+
+#: includes/class-ffpi-product-shipping.php:229
+msgid "(Variações têm valores diferentes)"
+msgstr ""
+
+#: admin/class-ffpi-admin.php:62
+msgid "Filtrar por frete"
+msgstr ""
+
+#: admin/class-ffpi-admin.php:63
+msgid "Frete Fixo"
+msgstr ""
+
+#: admin/class-ffpi-admin.php:64
+msgid "Frete Grátis"
+msgstr ""
+
+#: admin/class-ffpi-admin.php:65
+msgid "Sem Frete Configurado"
+msgstr ""
+
+#: admin/class-ffpi-admin.php:147
+msgid "Configurações de Frete Fixo por Produto"
+msgstr ""
+
+#: admin/class-ffpi-admin.php:148
+msgid "Frete Fixo por Produto"
+msgstr ""
+
+#: admin/class-ffpi-admin.php:175
+msgid "Configurações Gerais"
+msgstr ""
+
+#: admin/class-ffpi-admin.php:182
+msgid "Rótulo do Frete Fixo"
+msgstr ""
+
+#: admin/class-ffpi-admin.php:190
+msgid "Rótulo do Frete Grátis"
+msgstr ""
+
+#: admin/class-ffpi-admin.php:198
+msgid "Mostrar frete na lista de produtos"
+msgstr ""
+
+#: admin/class-ffpi-admin.php:207
+msgid "Configure as opções gerais do plugin de Frete Fixo por Produto."
+msgstr ""
+
+#: admin/class-ffpi-admin.php:217
+msgid "Rótulo exibido para o método de frete fixo no checkout."
+msgstr ""
+
+#: admin/class-ffpi-admin.php:230
+msgid "Rótulo exibido para o método de frete grátis no checkout."
+msgstr ""
+
+#: admin/class-ffpi-admin.php:243
+msgid "Mostrar o valor do frete na lista de produtos da loja"
+msgstr ""
+
+#: public/class-ffpi-public.php:44
+msgid "por unidade"
+msgstr ""
+
+#: public/class-ffpi-public.php:45
+msgid "valor único"
+msgstr ""
+
+#: public/class-ffpi-public.php:76
+msgid "Frete grátis para este produto!"
+msgstr ""
+
+#: public/class-ffpi-public.php:78
+msgid "Frete fixo: "
+msgstr ""
+
+#: public/class-ffpi-public.php:127
+msgid "Frete grátis!"
+msgstr ""
+
+#: public/class-ffpi-public.php:129
+msgid "Frete: "
+msgstr ""
+
+#: public/class-ffpi-public.php:155
+msgid "Frete grátis!"
+msgstr ""
+
+#: public/class-ffpi-public.php:157
+msgid "Frete: "
+msgstr ""

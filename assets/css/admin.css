@@ -1,0 +1,48 @@
+/**
+ * Estilos para a parte administrativa do plugin
+ */
+
+/* Estilos para os campos de frete fixo no produto */
+.options_group .form-field._ffpi_enable_fixed_shipping_field,
+.options_group .form-field._ffpi_fixed_shipping_cost_field,
+.options_group .form-field._ffpi_enable_free_shipping_field {
+    padding: 5px 20px 5px 162px !important;
+    margin: 9px 0;
+}
+
+/* Estilos para os campos de frete fixo nas variações */
+.variation-shipping-options {
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.variation-shipping-options .form-row {
+    padding: 0 12px 0 0;
+    margin: 0 0 8px;
+}
+
+.variation-shipping-options .form-row label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilos para a página de configurações */
+.ffpi-settings-page .form-table th {
+    width: 250px;
+}
+
+/* Estilos para a coluna de frete na listagem de produtos */
+.column-ffpi_shipping {
+    width: 100px;
+}
+
+.column-ffpi_shipping span.free-shipping {
+    color: green;
+    font-weight: bold;
+}
+
+/* Estilos para o filtro de frete na listagem de produtos */
+#ffpi_shipping_filter {
+    margin: 0 4px;
+}

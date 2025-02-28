@@ -1,0 +1,136 @@
+/**
+ * Estilos para a parte pública do plugin
+ */
+
+/* Estilos para as informações de frete na página do produto */
+.ffpi-product-shipping-info {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #f0f0f0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.ffpi-product-shipping-info p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.ffpi-free-shipping {
+    color: #388e3c;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.ffpi-free-shipping .dashicons {
+    margin-right: 5px;
+    color: #388e3c;
+}
+
+.ffpi-fixed-shipping {
+    color: #333;
+    font-weight: bold;
+}
+
+.ffpi-fixed-shipping .amount {
+    color: #333;
+}
+
+.ffpi-per-unit {
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+}
+
+/* Estilos para as informações de frete na lista de produtos */
+.ffpi-product-shipping-info-loop {
+    margin: 0 0 10px 0;
+    clear: both;
+    display: block;
+    width: 100%;
+    font-size: 0.85em;
+    line-height: 1.4;
+    position: relative;
+    z-index: 10;
+}
+
+.woocommerce ul.products li.product .ffpi-product-shipping-info-loop {
+    margin-bottom: 5px;
+    order: -1; /* Coloca as informações de frete antes de outros elementos */
+}
+
+.woocommerce-LoopProduct-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+    margin-top: 5px;
+    clear: both;
+}
+
+.theme-storefront ul.products li.product .ffpi-product-shipping-info-loop,
+.theme-astra ul.products li.product .ffpi-product-shipping-info-loop,
+.theme-flatsome ul.products li.product .ffpi-product-shipping-info-loop,
+.theme-oceanwp ul.products li.product .ffpi-product-shipping-info-loop {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.ffpi-free-shipping-loop {
+    color: #388e3c;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+}
+
+.ffpi-free-shipping-loop .dashicons {
+    margin-right: 5px;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.ffpi-fixed-shipping-loop {
+    color: #333;
+    margin: 0 !important;
+}
+
+.ffpi-fixed-shipping-loop .amount {
+    font-weight: bold;
+}
+
+.ffpi-fixed-shipping-loop small {
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+}
+
+/* Estilos para as informações de frete no carrinho */
+.ffpi-cart-shipping-info {
+    font-size: 0.85em;
+    margin-top: 5px;
+}
+
+.ffpi-free-shipping-cart {
+    color: #388e3c;
+    font-weight: bold;
+}
+
+.ffpi-fixed-shipping-cart {
+    color: #333;
+}
+
+.ffpi-fixed-shipping-cart small {
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+}
+
+/* Estilos para as informações de frete das variações */
+#ffpi-variation-shipping-info {
+    margin-top: 10px;
+}
