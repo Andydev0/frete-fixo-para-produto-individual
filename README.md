@@ -65,10 +65,6 @@ O plugin "Frete Fixo para Produto Individual" permite que lojistas configurem va
    - Rótulo do Frete Grátis: texto exibido no checkout
    - Mostrar frete na lista de produtos: exibe ou oculta o valor do frete na listagem de produtos
 
-## Suporte
-
-Para suporte, entre em contato através do e-mail: suporte@exemplo.com
-
 ## Changelog
 
 ### 1.0.0
